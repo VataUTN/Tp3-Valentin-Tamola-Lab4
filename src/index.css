@@ -1,0 +1,43 @@
+/* CardItem.css */
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .card-info {
+    flex: 1;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  
+  .card-description {
+    color: #555;
+  }
+  
+  .card-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-sold {
+    font-size: 0.9rem;
+  }
+  
+  .card-shipping {
+    font-size: 0.9rem;
+  }
+
+  
